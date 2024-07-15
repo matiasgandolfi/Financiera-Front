@@ -1,0 +1,35 @@
+/* /src/App.css */
+.main-content {
+  margin-top: 56px;  /* Ajusta esto si tu navbar tiene una altura diferente */
+  margin-left: 20px;    /* Inicialmente, sin margen izquierdo */
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.main-content.menu-open {
+  margin-left: 250px;  /* Ajusta esto según el ancho de tu sidebar */
+}
+
+
+/* Paleta de colores */
+:root {
+  --color-blue: #5085A0; /* Azul */
+  --color-gold: #D4AF37; /* Dorado */
+  --color-off-white: #F5F5DC; /* Blanco crudo */
+  --color-building-shadow: #C1C1C1; /* Sombra del edificio */
+  --color-road: #999999; /* Color de la carretera */
+  --color-sky: #A9B9C8; /* Color del cielo */
+  --color-light-shadow: rgba(255, 255, 255, 0.7); /* Difuminado */
+}
+
+.App{
+  background: linear-gradient(to bottom, var(--color-off-white), var(--color-light-shadow));
+  color: var(--color-blue);
+  font-family: Arial, sans-serif;
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  /* background-image: url(../../img/fondo-light.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

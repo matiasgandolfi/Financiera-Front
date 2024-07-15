@@ -1,0 +1,71 @@
+:root {
+    --color-dark-blue: #23334D; /* Azul oscuro */
+    --color-dark-menu: #001820;
+    --color-light-gold: #D4AF37; /* Dorado claro */
+    --color-off-white: #F5F5DC; /* Blanco crudo */
+    --color-building-shadow: #707070; /* Sombra del edificio */
+    --color-road: #2A2A2A; /* Color de la carretera */
+    --color-sky-night: #1A2738; /* Color del cielo nocturno */
+    --color-light-shadow: rgba(255, 255, 255, 0.2); /* Difuminado */
+  }
+
+.sidebar {
+    position: fixed;
+    top: 56px;  /* Ajusta esto si tu navbar tiene una altura diferente */
+    left: 0;
+    width: 250px;
+    height: calc(100% - 56px);  /* Ajusta esto si tu navbar tiene una altura diferente */
+    background-color: var(--color-dark-menu) !important;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+  }
+  
+  .sidebar.expanded {
+    transform: translateX(0);
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    color: white;
+  }
+  
+  .sidebar-body {
+    padding: 1rem;
+  }
+  
+  .nav-item {
+    margin: 10px 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .btn-close {
+    background: none;
+    border: none;
+  }
+  
+  .menu-link:hover {
+    color: var(--color-blue) !important;
+    border-color: var(--color-dark-blue) !important;
+  }
+
+  .menu-link{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .nav-item:hover {
+    margin: 10px 0;
+  }

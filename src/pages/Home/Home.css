@@ -1,0 +1,10 @@
+/* Paleta de colores */
+:root {
+    --color-blue: #5085A0; /* Azul */
+    --color-gold: #D4AF37; /* Dorado */
+    --color-off-white: #F5F5DC; /* Blanco crudo */
+    --color-building-shadow: #C1C1C1; /* Sombra del edificio */
+    --color-road: #999999; /* Color de la carretera */
+    --color-sky: #A9B9C8; /* Color del cielo */
+    --color-light-shadow: rgba(255, 255, 255, 0.7); /* Difuminado */
+  }
